@@ -1,5 +1,4 @@
-
-    *
+*
     {
       margin: 0;
       padding: 0;
@@ -20,11 +19,15 @@
       z-index: -1;
       
     }
-    header .logo
-    {
-      color: blanchedalmond;
+    section .logo
+    { 
+      color: rgb(255, 241, 221);
       text-transform: uppercase;
       cursor: pointer;
+      text-shadow: 0 1px #456147;
+      font-size: 25px;
+      
+      
     }
     .toggle
     {
@@ -46,7 +49,7 @@
       cursor: pointer;
     }
     .showcase
-    {   background: rgb(64, 95, 64);
+    {   background: rgb(170, 155, 146);
         position: absolute;
         right: 0;
         width: 100%;
@@ -78,33 +81,43 @@
       color: rgb(238, 84, 84);
       text-transform: none;
       margin-left: 90px;
+      margin-top:-80px;
+      animation-name: example;
+      animation-duration: 4s;
     }
+    
     .text h5 
     {
       font-size: 20px;
-      color: blanchedalmond;
-      margin-top: 180px;
-      margin-bottom: 180px;
+      color: rgb(255, 241, 221);
+      margin-top: 110px;
       margin-right: 40px;
       margin-left: 240px;
       
-    }
-   
-
-    .text p
-    {
-      color:  blanchedalmond;
-      margin-top: 3030px;
+     
     }
     
+    .text p
+    {
+      color:  rgb(255, 241, 221);
+      margin-top: 3030px;
+      font-family: none;
+    }
+    var {
+        position: absolute;
+        font-size: 15px;
+        z-index: 100;
+        margin-top: -800px;
+       }
     .social
     {
       position: absolute;
-      bottom: 40px;
+      bottom: 110px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
+    
     .social li
     {
       list-style: none;
@@ -145,11 +158,11 @@
     {
       text-decoration: none;
       font-size: 22px;
-      color:  rgb(219, 203, 177);
+      color:  rgb(128, 116, 94);
     }
     .menu ul li a:hover
     {
-      color: #40721f; 
+      color: #92af7e; 
     }
     
     .vid {
@@ -157,10 +170,529 @@
       position: absolute;
       margin-left: 250px;
       margin-right: 200px;
-      margin-top: -2400px;
+      margin-top: -2450px;
       margin-bottom: 200px;
      
     }
     
-  
+    .butterfly1 {
+        
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 1200px;
+        margin-left: -56px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+    }
+    .butterfly1:hover {
+      transform: scale(1.05); 
+      border: 2px solid  rgb(47, 88, 53);
+      
+       }
     
+    .butterfly2 {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 1200px;
+        margin-left: 245px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .butterfly2:hover {
+      transform: scale(1.05);  
+      border: 2px solid rgb(47, 88, 53);
+       }
+    .butterfly3 {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 1200px;
+        margin-left: 540px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .butterfly3:hover {
+      transform: scale(1.05);
+      border: 2px solid rgb(47, 88, 53);
+       }
+    .butterfly4 {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 1200px;
+        margin-left: 840px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        border-image-width: 10px;   
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      .butterfly4:hover {
+        transform: scale(1.05); 
+        border: 2px solid rgb(47, 88, 53);
+         }
+     .the
+     {
+        z-index: 100;
+        position: absolute;
+     }
+     .first 
+     {
+         color: rgb(255, 241, 221);
+         text-align: start;
+         text-transform: capitalize;
+         margin-left: -40px;
+     }
+     .second 
+     {
+        color: rgb(255, 241, 221);
+         text-align: start;
+         text-transform: capitalize;
+         margin-left: 290px; 
+         margin-top: -19px; 
+     }
+     .third 
+     {
+        color: rgb(255, 241, 221);
+        text-align: start;
+        text-transform: capitalize;
+        margin-left: 560px; 
+        margin-top: -16px;   
+     }
+     .forth 
+     { 
+        color:rgb(255, 241, 221);
+        text-align: start;
+        text-transform: capitalize;
+        margin-left: 860px; 
+        margin-top: -17px;   
+
+     }
+
+     .butterfly5 
+     {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 100px;
+        margin-left: -56px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+     .butterfly5:hover {
+      transform: scale(1.05); 
+      border: 2px solid rgb(47, 88, 53);
+       }
+     .butterfly6 
+     {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 100px;
+        margin-left: 245px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+     .butterfly6:hover {
+      transform: scale(1.05); 
+      border: 2px solid rgb(47, 88, 53);
+       }
+     .butterfly7 
+     {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 100px;
+        margin-left: 540px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-image-width: 10px;    
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+    .butterfly7:hover {
+      transform: scale(1.05); 
+      border: 2px solid rgb(47, 88, 53);
+       }
+     .butterfly8 
+     {
+        z-index: 100;
+        position: absolute;
+        width: 280px;
+        height: 290px;
+        margin-bottom: 100px;
+        margin-left: 840px;
+        border-radius: 10px;
+        border-bottom: 5px solid;
+        border-bottom-color: blanchedalmond;
+        border-top: 5px solid;
+        border-top-color: blanchedalmond;
+        border-image-width: 10px;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }  
+        .butterfly8:hover {
+          transform: scale(1.05); 
+          border: 2px solid rgb(47, 88, 53);
+           }
+     .begin
+     {
+        z-index: 100;
+        position: absolute; 
+     }   
+     .fifth 
+     {
+       color: rgb(255, 241, 221);
+       text-transform: capitalize;
+       margin-top: 1092px;
+       text-align: start;
+       text-transform: capitalize;
+       margin-left: -40px;
+       
+       
+     }
+     .sixth 
+     {
+        color: rgb(255, 241, 221);
+        text-align: start;
+        text-transform: capitalize;
+        margin-left: 290px; 
+        margin-top: -19px;    
+     }
+     .seven 
+     {
+        color: rgb(255, 241, 221);
+        text-align: start;
+        text-transform: capitalize;
+        margin-left: 560px; 
+        margin-top: -16px;    
+     }
+     .eight
+     {
+        color: rgb(255, 241, 221);
+        text-align: start;
+        text-transform: capitalize;
+        margin-left: 860px; 
+        margin-top: -17px;   
+     }
+      
+     .gallery
+     {   
+         color: rgb(255, 241, 221);
+         z-index: 100;
+         position: absolute; 
+         font-size: 25px;
+         margin-left: 130px;
+         margin-top: -1020px;
+         text-transform: capitalize;
+         text-shadow: 2px 4px #456147;
+         
+     }
+     .sentence 
+     {
+        color: rgb(255, 241, 221);
+         z-index: 100;
+         position: absolute; 
+         font-size: 17px;
+         margin-top: 280px;
+        
+     }
+     .welcome
+     {
+        writing-mode: vertical-rl;
+        color: rgb(255, 241, 221);
+        background-color: rgb(68, 97, 68);
+        z-index: 100;
+        position: absolute; 
+        width: 30px;
+        height: 90px;
+        margin-left: -100px;
+        margin-top: -1540px;
+        font-size: 20px;
+     }
+     .butterfly9
+     {
+        z-index: 80;
+        position: absolute; 
+        width: 400px;
+        height: 300px;
+        margin-bottom: -1350px;
+        margin-left: 700px;
+        border-radius: 160px;
+        border: 5px solid;
+        border-color: blanchedalmond;
+        border-image-width: 10px;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+     }
+     .butterfly9:hover {
+      transform: scale(1.05); 
+       }
+     .butterfly10
+     {
+        z-index: 80;
+        position: absolute; 
+        width: 298px;
+        height: 248px;
+        margin-bottom: -1500px;
+        margin-left: 400px;
+        border-radius: 50%;
+        border: 5px solid;
+        border-color: blanchedalmond;
+        border-image-width: 10px; 
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+     }
+     .butterfly10:hover {
+      transform: scale(1.05); 
+       }
+    .asked 
+    {
+      color: rgb(255, 241, 221);
+      z-index: 100;
+      position: absolute; 
+      font-size: 25px;
+      margin-top: 190px;
+      text-shadow: 2px 4px #456147;
+    }
+    .this
+    {
+      color: rgb(255, 241, 221);
+      z-index: 100;
+      position: absolute; 
+      font-size: 20px;
+      margin-top: 250px;
+      margin-left: 30px;
+      text-decoration: underline #456147;
+     
+    }
+    .butterfly11
+    {
+      z-index: 120;
+      position: absolute; 
+      width: 410px;
+      height: 410px;
+      margin-bottom: -2540px;
+      margin-left: 10px;
+      border-radius: 10px;
+      border-bottom: 5px solid;
+      border-bottom-color: blanchedalmond;
+      border-top: 5px solid;
+      border-top-color: blanchedalmond;
+      border-image-width: 10px;   
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    .butterfly11:hover {
+      transform: scale(1.05); 
+      
+       }
+    .another
+    {
+      color: rgb(255, 241, 221);
+      z-index: 100;
+      position: absolute; 
+      font-size: 20px;
+      margin-top: 785px;
+      margin-left: 30px;
+      text-decoration: underline #456147;
+    }
+    .answer
+    {
+      color: rgb(255, 241, 221);
+      z-index: 100;
+      position: absolute; 
+      font-size: 17px;
+      margin-top: 820px;
+    }
+   .link
+   {
+    color: rgb(255, 241, 221);
+    z-index: 100;
+    position: absolute; 
+    font-size: 17px;
+    margin-top: -1250px;
+   }
+   .go
+   {
+    z-index: 100;
+    position: absolute; 
+    font-size: 17px;
+    margin-top: -1180px;
+   }
+   #myDIV
+   {
+    z-index: 100;
+    position: absolute; 
+    color:  rgb(255, 241, 221);
+    font-size: 17px;
+    margin-left: 1px;
+    margin-top: 1510px;
+    background-color: rgb(114, 103, 88);
+    
+    
+   }
+   .click
+   {
+    color: rgb(255, 241, 221);
+    z-index: 100;
+    position: absolute; 
+    width: 80px;
+    height: 25px;
+    margin-top: 1480px;
+    background-color: rgb(114, 103, 88);
+    font-size: 14px;
+    border-radius: 4px;
+   }
+   input {
+    width: 280px;
+    z-index: 100;
+    position: absolute; 
+    height: 25px;
+    margin-top: 3396px;
+    margin-left: 100px;
+    border-radius: 4PX;
+    border: none;
+    border: 2px solid rgb(114, 103, 88);
+    
+  }
+  
+  .price1
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -940px;
+    margin-left: 300px;
+  }
+  .price2
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -940px;
+    margin-left: 580px;
+  }
+  .price3
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -940px;
+    margin-left: 890px;
+
+  }
+  .price4
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -940px;
+  }
+   
+  .price5
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -390px;
+    margin-left: 300px;
+  }
+  .price6
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -390px;
+    margin-left: 580px;
+  }
+  .price7
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -390px;
+    margin-left: 890px;
+
+  }
+  .price8
+  { z-index: 140;
+    position: absolute; 
+    color: rgb(60, 122, 48);
+    font-size: 17px;
+    margin-top: -390px;
+  } 
+  
+
+
+  
+   
+   
