@@ -1,10 +1,10 @@
-\*
+*
     {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
-      
+     
     }
     header
     {
@@ -71,7 +71,7 @@
     .text
     {
       position: relative;
-      z-index: 10;
+      z-index: 20;
     }
 
     
@@ -81,7 +81,7 @@
       color: rgb(238, 84, 84);
       text-transform: none;
       margin-left: 90px;
-      margin-top:-80px;
+      margin-top:-50px;
       animation-name: example;
       animation-duration: 4s;
     }
@@ -90,7 +90,7 @@
     {
       font-size: 20px;
       color: rgb(255, 241, 221);
-      margin-top: 110px;
+      margin-top: 100px;
       margin-right: 40px;
       margin-left: 240px;
       
@@ -112,7 +112,7 @@
     .social
     {
       position: absolute;
-      bottom: 110px;
+      bottom: 92px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -595,7 +595,7 @@
     color:  rgb(255, 241, 221);
     font-size: 17px;
     margin-left: 1px;
-    margin-top: 1510px;
+    margin-top: 1500px;
     background-color: rgb(114, 103, 88);
     
     
@@ -607,7 +607,7 @@
     position: absolute; 
     width: 80px;
     height: 25px;
-    margin-top: 1480px;
+    margin-top: 1470px;
     background-color: rgb(114, 103, 88);
     font-size: 14px;
     border-radius: 4px;
@@ -617,7 +617,7 @@
     z-index: 100;
     position: absolute; 
     height: 25px;
-    margin-top: 3396px;
+    margin-top: 3360px;
     margin-left: 100px;
     border-radius: 4PX;
     border: none;
